@@ -23,8 +23,8 @@ module.exports = () => {
         title:"Text Editor"
       }),
       new InjectManifest({
-        swSrc:"./src-sw.js",
-        swDest:"src-sw.js"
+        swSrc:'./src-sw.js',
+        swDest:'src-sw.js',
       }),
       new WebpackPwaManifest({
         fingerprints:false,
@@ -60,7 +60,7 @@ module.exports = () => {
             options:{
               presets:["@babel/preset-env"],
               plugins:["@babel/plugin-proposal-object-rest-spread","@babel/transform-runtime"],
-              
+
             }
 
           }
