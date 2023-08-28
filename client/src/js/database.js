@@ -22,7 +22,7 @@ export const putDb = async (content) => {
   console.log(result.value)
 };
 
-// TODO: Add logic for a method that gets all the content from the database
+
 export const getDb = async () => {
   const textDB=await openDB("editor",1);
   const tx=textDB.transaction("editor","readonly");
