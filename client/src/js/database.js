@@ -11,8 +11,8 @@ const initdb = async () =>
       console.log('jate database created');
     },
   });
+  
 
-// TODO: Add logic to a method that accepts some content and adds it to the database
 export const putDb = async (content) => {
   const textDB=await openDB("editor",1);
   const tx=textDB.transaction("editor","readwrite");

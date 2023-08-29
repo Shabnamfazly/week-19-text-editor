@@ -10,7 +10,7 @@ To set up the required components for this project, users just have to clone the
 You can start using this app by opening it in your browser using the provided link at the bottom of  this readme. If you want to use it without an internet connection, you can go to the link and click the "install" button in the top left corner of the page.
 
 Deployed link: 
-
+https://rocky-tundra-13164-3a8385afdbaf.herokuapp.com/  
 
 
 
